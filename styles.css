@@ -4,7 +4,7 @@ body {
   background-color: #FF80AB;
   background-image: url(bg3.jpeg);
   background-repeat: no-repeat;
-  background-position: top 70px;
+  background-position: center;
   font-family: 'Poiret One', Segoe UI Light, cursive;
   text-align: center;
   overflow-y: none;
