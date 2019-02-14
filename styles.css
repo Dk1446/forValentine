@@ -6,6 +6,22 @@ body {
   text-align: center;
   overflow-y: none;
 }
+
+
+.border {
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: 12px solid white;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 10px rgba(0,0,0,.5);
+  }
+
+  
 #cardOb {
   position: absolute;
   top: 280px;
