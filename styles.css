@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
+html, body {margin: 0; height: 100%; overflow: hidden}
 body {
   background-color: #F48FB1;
   font-family: 'Poiret One', Segoe UI Light, cursive;
