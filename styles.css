@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+body {
+  background-color: #F48FB1;
+  font-family: 'Poiret One', Segoe UI Light, cursive;
+  text-align: center;
+  overflow-y: none;
+}
+#cardOb {
+  position: absolute;
+  top: 280px;
+  width: 460px;
+  height: 260px;
+  left: 50%;
+  margin-left: -230px;
+  -webkit-perspective: 700px;
+  perspective: 700px;
+}
+#cardOb .heart {
+  width: 260px;
+  height: 260px;
+  float: left;
+  transition: all 2s;
+}
+#cardOb .heart #circle {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  background-color: #d32f2f;
+}
+#cardOb .heart #rec, #cardOb .heart #rec2 {
+  margin-top: -60px;
+  width: 130px;
+  height: 130px;
+  background-color: #d32f2f;
+  border-radius: 35% 0 0 0;
+}
+#cardOb .heart #half2 {
+  -ms-transform: rotate(-90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-90deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
+  margin-top: -330px;
+  margin-left: -200px;
+}
+#cardOb #heart2 {
+  margin-top: -60px;
+  margin-left: -130px;
+}
+#cardOb #heart2 #circle, #cardOb #heart2 #rec {
+  background-color: #fff;
+}
+#cardOb #heart2 #half2 #rec {
+  border-bottom: 1px solid #eee;
+  margin-top: -61px;
+}
+#cardOb #card {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-left: -130px;
+  background-color: #333;
+  border-radius: 35% 0 35% 0;
+  text-align: center;
+}
+#cardOb #card h2 {
+  font-size: 20px;
+  color:white;
+  width: 160px;
+  margin-top: 60px;
+  margin-left: 16px;
+}
+
+
+#cardOb #heart1 {
+  transform: rotateY(180deg);
+}
+#cardOb #heart2 {
+  transform: rotateY(-180deg) rotate(-180deg);
+}
+#cardOb:hover #heart1 {
+  transform: rotateY(0deg);
+}
+#cardOb:hover #heart2 {
+  transform: rotateY(0deg) rotate(-180deg);
+}
