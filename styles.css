@@ -24,6 +24,13 @@ body {
     box-shadow: inset 0 0 10px rgba(0,0,0,.5);
   }
 
+#emailimage{
+
+    height: 40px;
+    width: 40px;
+    
+}
+
 
 #cardOb {
   position: absolute;
