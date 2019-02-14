@@ -2,7 +2,7 @@
 html, body {margin: 0; height: 100%; overflow: hidden}
 body {
   background-color: #FF80AB;
-  background-image: url(bg3.jpeg);
+  background-image: url(bg4.jpg);
   background-repeat: no-repeat;
   background-position: center;
   font-family: 'Poiret One', Segoe UI Light, cursive;
@@ -35,10 +35,10 @@ body {
 
 #cardOb {
   position: absolute;
-  top: 150px;
+  top: 170px;
   width: 460px;
   height: 260px;
-  left: 44%;
+  left: 45%;
   margin-left: -230px;
   /* -webkit-perspective: 700px;
   perspective: 700px; */
